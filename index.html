@@ -170,8 +170,8 @@
 
             let entry =`<tr>
                 <th scope="row">${attempts}</th>
-                <td>${startTime.getHours()+":"+startTime.getMinutes()+":"+startTime.getMinutes()+":"+startTime.getMilliseconds()}</td>
-                <td>${endTime.getHours()+":"+endTime.getMinutes()+":"+endTime.getMinutes()+":"+endTime.getMilliseconds()}</td>
+                <td>${startTime.getHours()+":"+startTime.getMinutes()+":"+startTime.getSeconds()+":"+startTime.getMilliseconds()}</td>
+                <td>${endTime.getHours()+":"+endTime.getMinutes()+":"+endTime.getSeconds()+":"+endTime.getMilliseconds()}</td>
                 <td>${millis/1000}</td>
             </tr>`;
 
